@@ -1,1 +1,7 @@
-import React from 'react';\n\nconst Search = () => {\n  return (\n    <div>Search</div>\n  );\n};\n\nexport default Search;
+import React from "react";
+
+const Search = () => {
+  return <div>Search</div>;
+};
+
+export default Search;

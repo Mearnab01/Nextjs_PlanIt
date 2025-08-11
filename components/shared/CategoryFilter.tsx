@@ -1,1 +1,7 @@
-import React from 'react';\n\nconst CategoryFilter = () => {\n  return (\n    <div>CategoryFilter</div>\n  );\n};\n\nexport default CategoryFilter;
+import React from "react";
+
+const CategoryFilter = () => {
+  return <div>CategoryFilter</div>;
+};
+
+export default CategoryFilter;

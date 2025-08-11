@@ -1,1 +1,7 @@
-import React from 'react';\n\nconst Collection = () => {\n  return (\n    <div>Collection</div>\n  );\n};\n\nexport default Collection;
+import React from "react";
+
+const Collection = () => {
+  return <div>Collection</div>;
+};
+
+export default Collection;
