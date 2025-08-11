@@ -44,6 +44,7 @@ export async function POST(req: Request) {
       "svix-timestamp": svix_timestamp,
       "svix-signature": svix_signature,
     }) as WebhookEvent;
+    if (evt) console.log("Get evt");
   } catch (err) {
     console.error("Error verifying webhook:", err);
     return new Response("Error occured", {

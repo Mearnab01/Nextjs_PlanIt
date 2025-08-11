@@ -15,7 +15,7 @@ export const connectToDatabase = async () => {
       dbName: "planit",
       bufferCommands: false,
     });
-
+  console.log("MongoDb Connected");
   cached.conn = await cached.promise;
 
   return cached.conn;
